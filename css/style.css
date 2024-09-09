@@ -45,8 +45,8 @@ a:focus {
 
 .container {
     width: 100%; /* Ensure it spans the full width if not already set */
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 0;
+    padding-left: 0;
     margin-right: auto;
     margin-left: auto;
 }
@@ -291,9 +291,9 @@ a:focus {
     position: relative;
     width: 100%;
     height: calc(100vh - 35px);
-    min-height: 400px;
+    min-height: 540px;
     background: #092a49;
-    margin-bottom: 45px;
+    margin-bottom: 45px;   
 }
 
 .carousel .container-fluid {
@@ -357,7 +357,7 @@ a:focus {
 .carousel .carousel-text h1 {
     text-align: center;
     color: #ffffff;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 200;
     margin-bottom: 20px;
 }
@@ -480,7 +480,7 @@ a:focus {
 
 @media (max-width: 991.98px) {
     .carousel .carousel-text h1 {
-        font-size: 32px; /* Adjusted for better visibility */
+        font-size: 28; /* Adjusted for better visibility */
     }
     .carousel .carousel-text p {
         font-size: 18px; /* Increased from 16px for better readability */
@@ -1632,7 +1632,7 @@ a:focus {
 }
 
 h1 {
-    font-size: 24px; /* Ensures the headline is prominently displayed */
+    font-size: 20px; /* Ensures the headline is prominently displayed */
     margin-bottom: 20px; /* Space below the headline */
     color: #333; /* Adjust color to fit your design */
 }
