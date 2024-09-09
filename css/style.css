@@ -1605,18 +1605,15 @@ a:focus {
     color: #007bff; /* Example blue color, adjust as needed */
     font-weight: bold; /* Makes text bold */
 }
-.service-item {
-    margin: 20px;  /* Adds space around each service item */
-}
-.service-box {
-    text-align: center; /* Center-aligns the text and images */
-    margin-bottom: 30px; /* Adds space below each service box */
-}
 
+.service-box{
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding around the content */}
 .service-box img {
+    display: block;
+    margin: 10px auto; /* Center image horizontally */
     width: 100px; /* Adjust the size as needed */
     height: auto;
-    margin: 10px; /* Space between the image and the text */
 }
 
 .text-light {
