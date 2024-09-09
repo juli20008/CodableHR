@@ -1590,35 +1590,23 @@ a:focus {
     color: #0796fe;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 575.98px) {
     .footer .copyright p,
     .footer .copyright .col-md-6:last-child p {
-        margin: 5px 0;
+        margin: 5px 5px;
         text-align: center;
     }
 }
+
+/*******************************/
+/********* We Love HR Data********/
+/*******************************/
 .highlight {
     color: #007bff; /* Example blue color, adjust as needed */
     font-weight: bold; /* Makes text bold */
 }
 .service-item {
     margin: 20px;  /* Adds space around each service item */
-}
-.hr-approach-section h1 {
-    color: #333; /* Dark text color for readability */
-    font-size: 24px; /* Large font size for headings */
-    text-align: center; /* Center align the heading */
-    margin-bottom: 20px; /* Space below the heading */
-}
-
-.hr-approach-section h2 {
-    color: #555; /* Slightly lighter than h1 for visual hierarchy */
-    margin-top: 10px; /* Space above the sub-heading */
-}
-
-.hr-approach-section p {
-    color: #666; /* Subtle text color for paragraph */
-    font-size: 16px; /* Readable text size */
 }
 .service-box {
     text-align: center; /* Center-aligns the text and images */
@@ -1628,47 +1616,11 @@ a:focus {
 .service-box img {
     width: 100px; /* Adjust the size as needed */
     height: auto;
-    margin-bottom: 10px; /* Space between the image and the text */
-}
-
-h1 {
-    font-size: 20px; /* Ensures the headline is prominently displayed */
-    margin-bottom: 20px; /* Space below the headline */
-    color: #333; /* Adjust color to fit your design */
-}
-
-h3 {
-    color: #555;
-    margin-top: 10px;
-}
-
-.bg-dark {
-    background-color: #343a40; /* Bootstrap dark background */
+    margin: 10px; /* Space between the image and the text */
 }
 
 .text-light {
     color: #f8f9fa; /* Bootstrap light text color */
-}
-
-.container-fluid.bg-dark .service-box h1,
-.container-fluid.bg-dark .service-box h3,
-.container-fluid.bg-dark .service-box p {
-    color: #f8f9fa; /* Ensures all text inside the container is light-colored */
-}
-
-.service-box {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.service-box img {
-    width: 100px; /* Adjust the size as needed */
-    height: auto;
-    margin-bottom: 10px; /* Space between the image and the text */
-}
-
-h1, h3 {
-    margin-top: 20px; /* Adds space above headings for clarity */
 }
 
 .bg-dark {
