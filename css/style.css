@@ -1606,6 +1606,10 @@ a:focus {
     font-weight: bold; /* Makes text bold */
 }
 
+.container-fluid.bg-dark {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .service-box{
     text-align: center; /* Center text */
     padding: 20px; /* Add padding around the content */}
