@@ -1608,7 +1608,7 @@ a:focus {
 
 .container-fluid.bg-dark {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 .service-box{
     text-align: center; /* Center text */
