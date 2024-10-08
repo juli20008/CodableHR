@@ -291,9 +291,9 @@ a:focus {
     position: relative;
     width: 100%;
     height: calc(100vh - 35px);
-    min-height: 540px;
+    min-height: 400px;
     background: #092a49;
-    margin-bottom: 45px;   
+    margin-bottom: 45px;
 }
 
 .carousel .container-fluid {
@@ -542,10 +542,6 @@ a:focus {
     }
 }
 
-/* Ensure padding around carousel item to prevent content sticking to edges */
-.carousel .carousel-item {
-    padding: 0 15px; /* Add padding to avoid text touching the edges */
-}
 
 /*******************************/
 /******* Section Header ********/
