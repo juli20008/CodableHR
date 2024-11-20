@@ -540,6 +540,13 @@ a:focus {
         min-width: 120px; /* Minimum width to prevent too much shrink */
         white-space: normal; /* Allow text wrapping */
     }
+      /* New styles for vertical button layout */
+      .carousel-btn {
+        display: flex; /* Use flexbox for layout */
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: stretch; /* Stretch buttons to full width of container */
+        gap: 10px; /* Space between buttons */
+    }
 }
 
 
