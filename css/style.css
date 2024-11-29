@@ -514,10 +514,18 @@ a:focus {
 
     .carousel .carousel-text .btn {
         padding: 8px 10px; /* Reduce padding to fit smaller screens */
-        font-size: 13px; /* Adjust font size to match other elements */
-        width: auto; /* Allow width to adjust based on content */
-        min-width: 120px; /* Minimum width to prevent too much shrink */
-        white-space: normal; /* Allow text wrapping */
+        font-size: 13px; /* Adjust font size */
+        min-width: 150px; /* Ensure all buttons have the same minimum width */
+        text-align: center; /* Center-align button text */
+        white-space: nowrap; /* Prevent text wrapping */
+        width: 100%; /* Ensure consistent full width */
+    }
+    
+    .carousel-btn {
+        display: flex; /* Use flexbox for layout */
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: stretch; /* Stretch buttons to full width of container */
+        gap: 10px; /* Space between buttons */
     }
 }
 
@@ -534,18 +542,18 @@ a:focus {
     }
     
     .carousel .carousel-text .btn {
-        padding: 8px 10px; /* Reduce padding to fit smaller screens */
-        font-size: 13px; /* Adjust font size to match other elements */
-        width: auto; /* Allow width to adjust based on content */
-        min-width: 120px; /* Minimum width to prevent too much shrink */
-        white-space: normal; /* Allow text wrapping */
+        padding: 8px 10px; /* Reduce padding further */
+        font-size: 12px; /* Slightly smaller font size for very small screens */
+        min-width: 120px; /* Ensure consistent button width */
+        text-align: center; /* Keep text aligned */
+        width: 100%; /* Ensure buttons stretch fully */
     }
-      /* New styles for vertical button layout */
-      .carousel-btn {
-        display: flex; /* Use flexbox for layout */
-        flex-direction: column; /* Stack buttons vertically */
-        align-items: stretch; /* Stretch buttons to full width of container */
-        gap: 10px; /* Space between buttons */
+    
+    .carousel-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
     }
 }
 
