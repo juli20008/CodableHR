@@ -1643,3 +1643,37 @@ a:focus {
 .bg-dark h1, .bg-dark h2, .bg-dark h3, .bg-dark p {
     color: #ffffff; /* Ensure all text in the section is white */
 }
+
+
+
+.row {
+    display: flex; /* Ensure row uses flexbox */
+    flex-wrap: wrap; /* Allow items to wrap onto the next line */
+}
+
+.col-6 {
+    flex: 0 0 50%; /* Each column takes 50% width */
+    max-width: 50%; /* Each column takes 50% width */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    padding: 15px; /* Add some padding to the columns */
+}
+
+.image-container img {
+    max-width: 100%; /* Image should not exceed container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevents some potential vertical alignment issues */
+    margin: 0 auto; /* Center the image within the container */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .col-6 {
+        flex: 0 0 100%; /* Each column takes 100% width */
+        max-width: 100%; /* Each column takes 100% width */
+        padding: 15px; /* Maintain the padding */
+    }
+    .image-container img {
+        width: 100%; /* Image should occupy full width of container */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
