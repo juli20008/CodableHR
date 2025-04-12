@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Codable HR - HR Data Consulting Services</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="HR Data Consulting Services" name="keywords">
+        <meta content="HR Data Consulting Services" name="description">
+
+        <!-- Favicon -->
+        <link href="img/logo.png" rel="icon" type="image/png">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body class="page">
+       <!-- Top Bar Start -->
+       <div class="top-bar d-none d-md-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12" style="display: flex; justify-content: center;"> <!-- Flexbox for centering -->
+                    <div class="text">
+                        <p>Tired of the endless HR number juggling? Check out our 
+                        <strong><a href="service.html" style="color: inherit; text-decoration: none;">HR Analytics subscription service</a></strong>!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Bar End -->
+     <!-- Nav Bar Start -->
+     <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand" style="display: flex; align-items: center;">
+                <img src="img/logo.png" alt="Logo">
+                Codable<span style="color: #007bff;"><strong>HR</strong></span>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto">
+                    <div class="nav-item dropdown">
+                         <!--  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>-->
+                        <div class="dropdown-menu">
+                           <!-- <a href="service.html" class="dropdown-item">Outsourced HR Analytics</a>-->
+                            <!--  <a href="feature.html" class="dropdown-item">People Data Automation</a>-->
+                        </div>
+                    </div>
+                     <!-- <a href="single.html" class="nav-item nav-link">Our Work</a>-->
+                </div>
+                                    <!-- Adding the Contact Us button -->
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link btn btn-primary" href="contact.html"><strong>Book A Call</strong></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Nav Bar End -->
+
+            <!-- Portfolio Start -->
+            <div id="portfolio" class="container bg-white pt-5 pb-3">
+                <div class="row px-3">
+                    <div class="col-12">
+                        <h2 class="title position-relative pb-2 mb-4">Portfolios - How I Made a Difference</h2>
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12 text-center mb-2">
+                                <ul class="list-inline mb-4" id="portfolio-filters">
+                                    <li class="btn btn-outline-primary active" data-filter="*"><i class="fa fa-star mr-2"></i>All</li>
+                                    <li class="btn btn-outline-primary" data-filter=".analytics"><i class="fa fa-chart-bar mr-2"></i>HR Analytics</li>
+                                    <li class="btn btn-outline-primary" data-filter=".automation"><i class="fa fa-cogs mr-2"></i>Workflow Automation</li>
+                                    <li class="btn btn-outline-primary" data-filter=".hris"><i class="fa fa-database mr-2"></i>HRIS Administration</li>
+                                </ul>                                    
+                            </div>
+                        </div>
+                        <div class="portfolio-container">
+                            <!-- HR Analytics Projects -->
+                            <div class="col-md-6 mb-4 portfolio-item analytics">
+                                <div class="position-relative overflow-hidden mb-2">
+                                    <img class="img-fluid w-100" src="img/project-1.jpg" alt="Project 1">
+                                    <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                        <a href="#project1-story" data-toggle="modal">
+                                            <i class="fa fa-4x fa-plus text-white"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="text-center">HR Month End Reports</h5>
+                            </div>
+
+                            <div class="col-md-6 mb-4 portfolio-item analytics">
+                                <div class="position-relative overflow-hidden mb-2">
+                                    <img class="img-fluid w-100" src="img/project-2.jpg" alt="Project 2">
+                                    <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                        <a href="#project2-story" data-toggle="modal">
+                                            <i class="fa fa-4x fa-plus text-white"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="text-center">Talent Management</h5>
+                            </div>
+
+                            <!-- Workflow Automation Projects -->
+                            <div class="col-md-6 mb-4 portfolio-item automation">
+                                <div class="position-relative overflow-hidden mb-2">
+                                    <img class="img-fluid w-100" src="img/project-3.jpg" alt="Project 3">
+                                    <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                        <a href="#project3-story" data-toggle="modal">
+                                            <i class="fa fa-4x fa-plus text-white"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="text-center">Payroll Reporting Automation</h5>
+                            </div>
+
+                            <div class="col-md-6 mb-4 portfolio-item automation">
+                                <div class="position-relative overflow-hidden mb-2">
+                                    <img class="img-fluid w-100" src="img/project-4.jpg" alt="Project 4">
+                                    <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                        <a href="#project4-story" data-toggle="modal">
+                                            <i class="fa fa-4x fa-plus text-white"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="text-center">Staffing Metrics Automation</h5>
+                            </div>
+
+                            <!-- HRIS Administration Projects -->
+                            <div class="col-md-6 mb-4 portfolio-item hris">
+                                <div class="position-relative overflow-hidden mb-2">
+                                    <img class="img-fluid w-100" src="img/project-5.jpg" alt="Project 5">
+                                    <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                        <a href="#project5-story" data-toggle="modal">
+                                            <i class="fa fa-4x fa-plus text-white"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="text-center">HRIS Management</h5>
+                            </div>
+
+                            <div class="col-md-6 mb-4 portfolio-item hris">
+                                <div class="position-relative overflow-hidden mb-2">
+                                    <img class="img-fluid w-100" src="img/project-6.jpg" alt="Project 6">
+                                    <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                        <a href="#project6-story" data-toggle="modal">
+                                            <i class="fa fa-4x fa-plus text-white"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="text-center">Benefits Transition</h5>
+                            </div>
+
+                            <div class="col-md-6 mb-4 portfolio-item analytics">
+                                <div class="position-relative overflow-hidden mb-2">
+                                    <img class="img-fluid w-100" src="img/project-7.jpg" alt="Project 7">
+                                    <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                        <a href="#project7-story" data-toggle="modal">
+                                            <i class="fa fa-4x fa-plus text-white"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="text-center">HR Budget</h5>
+                            </div>
+
+                            <div class="col-md-6 mb-4 portfolio-item automation">
+                                <div class="position-relative overflow-hidden mb-2">
+                                    <img class="img-fluid w-100" src="img/project-8.jpg" alt="Project 8">
+                                    <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                        <a href="#project8-story" data-toggle="modal">
+                                            <i class="fa fa-4x fa-plus text-white"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="text-center">Compensation and Bonus Review</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio End -->
+
+            <!-- Modals for Project Stories -->
+            <div class="modal fade" id="project1-story" tabindex="-1" role="dialog" aria-labelledby="project1Label" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document"> <!-- Add 'modal-lg' for large modal -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project1Label">HR Month End Reports</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Transforming Regulatory Reporting</h4>
+                            <h5>How I Made a Difference</h5>
+                            <p>At TBS, I didn’t just deliver reports—I transformed their data experience. Here’s how:</p>
+                            <ul>
+                                <li><strong>Validation:</strong> I conducted a comprehensive audit for the headcount report, checking variances in FTE, status, department, and location.</li>
+                                <li><strong>One Source of Truth:</strong> I integrated all key business dashboards and talent acquisition data into a clean, lean system, giving their team a single source of truth they could rely on.</li>
+                                <li><strong>From Chaos to Clarity:</strong> I simplified their reporting process by consolidating data from 10 different sources into one report, with seamless integration of formulas and formatting. No more headaches, no more wasted time.</li>
+                                <li><strong>Data to Power:</strong> I empowered MCAP’s leadership team with dashboards that practically updated themselves, saving hours of manual work and enabling quicker, more impactful decision-making.</li>
+                                <li><strong>Full Transparency, Full Control:</strong> I designed an interactive, user-friendly model to track FTE variance, offering instant clarity on workforce numbers to manage budgets and spot trends.</li>
+                            </ul>
+
+                            <h5>Outcome</h5>
+                            <p>I didn’t just help TBS generate reports—I revolutionized how they think about data. With my automated VBA-powered solution, monthly reporting became effortless and served key stakeholders, including:</p>
+                            <ul>
+                                <li><strong>Senior Executives:</strong> Clear insights into FTE vs Budget, turnover, absenteeism, and more.</li>
+                                <li><strong>Finance:</strong> Headcount and FTE reports delivered on demand.</li>
+                                <li><strong>IT & Facilities:</strong> New hire and location-based tracking with zero manual effort.</li>
+                                <li><strong>Overtime Reporting:</strong> Delivered to 5 key lines of business without a hitch.</li>
+                            </ul>
+
+                            <h5>What This Means for You</h5>
+                            <p>My service cut TBS's reporting time by 70%, slashed costs by 70%, and reduced errors by 50%—all while providing faster, clearer insights to help them make smarter, more confident decisions.</p>
+                            <p>Imagine what this level of efficiency and precision could do for your business. At the heart of everything I do is a commitment to making your life easier, your business smarter, and your data work for you—so you can focus on the big picture. Let me bring this game-changing efficiency to you. Are you ready to revolutionize your reporting?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat similar modals for each project -->
+
+            <!-- Modal for Project 2 - Workflow Automation -->
+            <div class="modal fade" id="project2-story" tabindex="-1" role="dialog" aria-labelledby="project2Label" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project2Label">Talent Management</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>TBS - Talent Management</h4>
+
+                            <h5>Unlock Talent Potential and Strategic Workforce Planning with Proven Expertise</h5>
+                            <p>With extensive experience in both Talent Management and Succession Planning, I bring a results-oriented approach to drive organizational success by aligning people strategies with business goals.</p>
+
+                            <h5>Performance Management Expertise</h5>
+                            <p>In my previous role, I actively participated in Talent Discussions across Strategic Business Units (SBU), collaborating with leadership to ensure seamless talent development and performance management. Key contributions include:</p>
+                            <ul>
+                                <li><strong>Talent Management System Design:</strong> Helped structure a comprehensive talent management system tailored to organizational needs.</li>
+                                <li><strong>Performance Management Strategies:</strong> Advised on optimal timing and approach for performance discussions, ensuring constructive feedback mechanisms.</li>
+                                <li><strong>Progress Monitoring:</strong> Generated performance reports to track key performance indicators (KPIs) and employee growth, leveraging data from talent systems.</li>
+                            </ul>
+
+                            <h5>Succession Planning Leadership</h5>
+                            <p>I played a key role in managing succession strategies, ensuring continuity in critical roles and fostering leadership development. Key achievements include:</p>
+                            <ul>
+                                <li><strong>Training & Development:</strong> Designed training programs for both individual contributors and managers, focusing on leadership development and skill enhancement.</li>
+                                <li><strong>Strategic Succession Planning:</strong> 
+                                    <ul>
+                                        <li>Created criteria to assess over 80 business-critical director-level roles.</li>
+                                        <li>Developed a forecasting model for retirement and attrition rates, ensuring proactive workforce planning.</li>
+                                        <li>Designed a Tableau dashboard to monitor key workforce KPIs, including demographic trends, gender balance, and retirement forecasts for 1, 3, and 5-year intervals.</li>
+                                        <li>Crafted a data collection and communication strategy to identify and nurture successors for key roles.</li>
+                                        <li>Facilitated high-impact succession planning discussions with senior leadership, addressing workforce gaps and future talent pipelines.</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Finance Management Institute:</strong> Managed a professional development initiative, organizing high-profile conferences that attracted industry thought leaders to enhance the professional growth of the finance community.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Project 3 - HRIS Administration -->
+            <div class="modal fade" id="project3-story" tabindex="-1" role="dialog" aria-labelledby="project3Label" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project3Label">Payroll Reporting Automation</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Transforming Payroll Reporting with Automation</h4>
+
+                            <h5>How I Made a Difference</h5>
+                            <p>In this project, I revolutionized payroll reporting by automating the entire process from data extraction to report distribution. My solution streamlined workflows, improved accuracy, and reduced manual effort. Here's how I made a difference:</p>
+                            <ul>
+                                <li><strong>Automated Data Extraction:</strong> I integrated various payroll data sources, eliminating the need for manual data collection. Employee work periods, absence records, and payroll metrics are now fetched automatically, ensuring that only relevant data is processed.</li>
+                                <li><strong>Accurate Payroll Metrics:</strong> The solution uses custom functions to calculate key payroll metrics such as workdays and payment amounts. Validation checks were built into the system to cross-reference employee records, reducing errors and ensuring consistency.</li>
+                                <li><strong>Comprehensive Reporting:</strong> Payroll reports are automatically generated in Excel and CSV formats, complete with summaries and detailed department-specific data. The reports are formatted and ready for review with minimal manual intervention.</li>
+                                <li><strong>Automated Email Distribution:</strong> Once the reports are created, they are instantly distributed to key stakeholders via customized emails—ensuring timely payroll reporting every month.</li>
+                            </ul>
+
+                            <h5>Outcome</h5>
+                            <p>My automation solution dramatically improved the payroll reporting process for the client:</p>
+                            <ul>
+                                <li><strong>Time Savings:</strong> Report generation time was cut from days to just hours, giving the payroll team more time to focus on strategic tasks.</li>
+                                <li><strong>Error Reduction:</strong> The built-in validation checks significantly reduced errors caused by manual data entry, improving overall data accuracy.</li>
+                                <li><strong>Effortless Reporting:</strong> Reports are now automatically sent to stakeholders without manual involvement, ensuring consistency and on-time delivery.</li>
+                            </ul>
+
+                            <h5>What This Means for You</h5>
+                            <p>My solution demonstrates the power of automation in payroll reporting. By streamlining repetitive tasks, I help organizations:</p>
+                            <ul>
+                                <li><strong>Increase Efficiency:</strong> Drastically reduce the time spent on manual payroll tasks, freeing up your team for higher-value activities.</li>
+                                <li><strong>Enhance Accuracy:</strong> Ensure consistent and accurate payroll data with automated validation and cross-referencing features.</li>
+                                <li><strong>Deliver Reports Effortlessly:</strong> Automate the entire process from data collection to report distribution, ensuring timely delivery to key stakeholders.</li>
+                            </ul>
+
+                            <p>Are you ready to transform your payroll reporting and free up valuable time for your team? Let me bring the power of automation to your organization.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Project 4 - Workflow Automation -->
+            <div class="modal fade" id="project4-story" tabindex="-1" role="dialog" aria-labelledby="project4Label" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project4Label">Staffing Metrics Automation</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Revolutionizing Staffing Metrics with Automation</h4>
+
+                            <h5>Transform Your Staffing Reporting Process</h5>
+                            <p>In my latest project, I helped an organization completely transform their Spring Staffing Metrics reporting process, moving from cumbersome manual tasks to a fully automated, streamlined solution. Previously, their HR team spent countless hours gathering data, formatting spreadsheets, and validating information—time-consuming tasks prone to errors and inconsistencies.</p>
+
+                            <h5>Automation for Accuracy and Speed</h5>
+                            <p>With my custom automation solution built on R programming and advanced tools, I replaced manual workflows with a system that seamlessly handles all critical functions:</p>
+                            <ul>
+                                <li><strong>Automated Data Extraction:</strong> Data from multiple sources, including PeopleSoft, is automatically collected, saving hours of manual effort.</li>
+                                <li><strong>Advanced Metrics Calculation:</strong> The system performs key calculations, generating metrics for vacancies, placements, and staffing statuses—without human intervention.</li>
+                                <li><strong>Data Integrity Checks:</strong> Automated validations cross-reference data, ensuring that the information is always accurate and up to date.</li>
+                                <li><strong>Report Formatting and Delivery:</strong> Reports are automatically formatted, and Word documents are populated with real-time metrics, ready to be shared with stakeholders.</li>
+                            </ul>
+
+                            <h5>Outcome</h5>
+                            <p>The automation solution delivered remarkable results:</p>
+                            <ul>
+                                <li><strong>Time Savings:</strong> What used to take days is now completed in minutes. The HR team has reclaimed valuable time for more strategic tasks.</li>
+                                <li><strong>Improved Accuracy:</strong> Data errors have been virtually eliminated, giving the HR team confidence in their metrics and reports.</li>
+                                <li><strong>Strategic Focus:</strong> By freeing up time from administrative work, the HR team can now focus on decision-making and improving staffing strategies, rather than being bogged down by manual reporting.</li>
+                            </ul>
+
+                            <h5>What This Means for You</h5>
+                            <p>Imagine a world where your staffing reports are generated automatically, with data flowing seamlessly from your existing systems and reports delivered to stakeholders with precision and timeliness. By automating your staffing metrics process, you can:</p>
+                            <ul>
+                                <li><strong>Save Time:</strong> Automate manual tasks and spend your time on high-value activities.</li>
+                                <li><strong>Increase Accuracy:</strong> Eliminate errors and inconsistencies with built-in validation.</li>
+                                <li><strong>Make Better Decisions:</strong> Leverage real-time data to inform your strategic staffing plans.</li>
+                            </ul>
+
+                            <p>Let me help you revolutionize your staffing metrics. Are you ready to automate your reporting process and unlock new levels of efficiency?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Project 5 - HRIS Administration -->
+            <div class="modal fade" id="project5-story" tabindex="-1" role="dialog" aria-labelledby="project5Label" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project5Label">HRIS Management</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Revolutionizing HRIS Management for Seamless Operations</h4>
+
+                            <h5>How I Made a Difference</h5>
+                            <p>In my role as an HRIS Administrator, I addressed critical system issues and drove improvements to enhance operational efficiency and ensure compliance:</p>
+                            <ul>
+                                <li><strong>Troubleshooting:</strong> Resolved issues like Manager Access and Role Permission administration, streamlining workflows and ensuring proper access.</li>
+                                <li><strong>Custom Reporting:</strong> Created tailored HCM reports for audit and compensation, ensuring data integrity and compliance.</li>
+                                <li><strong>Data Audits:</strong> Spearheaded audits of the Canada Life data feed from UKG, resolving discrepancies and ensuring accurate data flow.</li>
+                                <li><strong>Compliance:</strong> Worked with UKG to ensure compliance with French language legal requirements.</li>
+                                <li><strong>Budget Feeds:</strong> Collaborated with UKG to automate data feeds for annual budgets, improving financial planning.</li>
+                            </ul>
+
+                            <h5>HRIS Governance and Administration Expertise</h5>
+                            <p>I also established comprehensive HRIS governance systems to track key business rules and streamline operations:</p>
+                            <ul>
+                                <li>Managed user access, job codes, and role configurations.</li>
+                                <li>Ensured error-free HRIS updates and mass data uploads.</li>
+                                <li>Collaborated with auditors to ensure compliance with all regulations.</li>
+                            </ul>
+
+                            <h5>Outcome</h5>
+                            <ul>
+                                <li><strong>Time Savings:</strong> Automated processes saved countless hours of manual work.</li>
+                                <li><strong>Improved Accuracy:</strong> Customized reporting and audits ensured accurate data, enabling better decision-making.</li>
+                                <li><strong>Increased Efficiency:</strong> Streamlined workflows allowed HR teams to focus on strategic initiatives.</li>
+                            </ul>
+
+                            <h5>What This Could Mean for You</h5>
+                            <p>Imagine an HRIS system that works seamlessly in the background, saving time, ensuring compliance, and providing accurate data. By implementing these enhancements, you can:</p>
+                            <ul>
+                                <li><strong>Save Time:</strong> Automate daily processes and reduce manual effort.</li>
+                                <li><strong>Ensure Compliance:</strong> Stay ahead of legal requirements with built-in auditing.</li>
+                                <li><strong>Enhance Data Accuracy:</strong> Gain reliable, real-time data for decision-making.</li>
+                            </ul>
+
+                            <p>Let me help you unlock the full potential of your HRIS system to improve efficiency and compliance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal for Project 6 - HRIS Administration -->
+            <div class="modal fade" id="project6-story" tabindex="-1" role="dialog" aria-labelledby="project6Label" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project6Label">Benefits Transition</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Driving Seamless Benefits Transition and HRIS Optimization</h4>
+
+                            <p>I led a major transition project, moving benefits administration from Sun Life to Canada Life, ensuring a smooth process that optimized data accuracy and achieved cost savings.</p>
+
+                            <h5>Key Achievements</h5>
+                            <ul>
+                                <li><strong>Comprehensive Data Audit:</strong> Conducted a thorough audit of employee, dependent, and beneficiary data, identifying gaps and resolving discrepancies for a complete and accurate data migration.</li>
+                                <li><strong>HRIS Customization:</strong> Developed a customized data feed for Canada Life integration, enhancing reporting accuracy through advanced query-building techniques and UKG case statements.</li>
+                                <li><strong>Retirement Benefits Reporting:</strong> Provided detailed reports on retirement programs (RRSP, DPSP, TFSA), delivering critical insights into benefit participation rates.</li>
+                                <li><strong>Cost-Saving Analysis:</strong> Performed a cost-benefit analysis comparing Sun Life and Canada Life, identifying potential savings that supported strategic decisions for optimizing benefits programs.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         <!-- Modal for Project 7 - HR Budget -->
+            <div class="modal fade" id="project7-story" tabindex="-1" role="dialog" aria-labelledby="project6Label" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project6Label">Benefits Transition</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Turning Chaos into Efficiency: Transforming the HR Budget Process</h4>
+
+                            <p>When I joined the team, the HR budget process was in complete disarray due to a major revamp. The inefficiencies were creating bottlenecks that consumed valuable time and resources. I quickly recognized the need for a systematic overhaul to bring order to the chaos and improve both speed and accuracy in managing budget records.</p>
+
+                            <h5>Key Achievements</h5>
+                            <ul>
+                                <li><strong>Dynamic Macro Functions:</strong> I developed a flexible macro function to split 1,500 records based on criteria such as budget manager, line of business (LOB) leader, and cost centers. This allowed the finance team to easily customize reviews and manage data more effectively.</li>
+                                <li><strong>Automated Data Input:</strong> I created an automated macro function for inputting budget scenarios, such as new hires, terminations, and promotions. This tool handled variations in salaries, bonuses, and benefits, which eliminated manual errors and accelerated data processing.</li>
+                                <li><strong>Root Cause Analysis:</strong> I facilitated meetings with the budget manager to reconcile mismatches, clarify complex changes, and dive deep into discrepancies to identify root causes.</li>
+                                <li><strong>Automatic Reporting:</strong> I generated automatic reports for finance, streamlining communication between the budget team and the finance department.</li>
+                                <li><strong>System Integration:</strong> I proposed and implemented a solution to integrate the budget process with the live HRIS system, ensuring data consistency and eliminating system communication gaps.</li>
+                            </ul>
+                            <h5>Outcome</h5>
+                            <ul>
+                                <li><strong>70% Time Reduction:</strong> My solutions led to a 70% reduction in time spent on data entry and spreadsheet wrangling, freeing up resources for more strategic work.</li>
+                                <li><strong>Improved Process Integrity:</strong> The new processes became repeatable, traceable, and maintained the highest level of data integrity.</li>
+                                <li><strong>Resolved Data Mismatches:</strong> By addressing system communication gaps, we preemptively resolved data mismatches, ensuring smooth and efficient budget operations moving forward.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal for Project 8 - Annual Compensation Review -->
+            <div class="modal fade" id="project8-story" tabindex="-1" role="dialog" aria-labelledby="project7Label" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project7Label">Annual Compensation Review Process</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Driving Efficiency: Enhancing the Annual Compensation Process</h4>
+
+                            <p>The Annual Compensation review process was time-consuming and inefficient, especially when handling large datasets. I saw an opportunity to streamline the process and implemented key improvements that dramatically enhanced productivity and communication.</p>
+
+                            <h5>Key Achievements</h5>
+                            <ul>
+                                <li><strong>Comprehensive Dataset Preparation:</strong> I prepared a thorough starting dataset for the Annual Compensation review, ensuring data integrity and accuracy to minimize errors from the outset.</li>
+                                <li><strong>Custom Split Function:</strong> I created a custom split function to automatically divide the master compensation spreadsheet, enabling smoother communication with managers while reducing manual effort.</li>
+                                <li><strong>Pilot Input Function:</strong> I proactively suggested a pilot function to automatically log FTEs and their ratings into the master compensation file, which made managing and reviewing employee data much faster and more reliable.</li>
+                            </ul>
+                            <h5>Outcome</h5>
+                            <ul>
+                                <li><strong>70% Time Saved:</strong> My improvements reduced the time spent preparing and splitting the annual compensation master file by 70%, freeing up resources for more strategic work.</li>
+                                <li><strong>Enhanced Communication:</strong> The new tool streamlined communication with managers, avoiding the back-and-forth exchanges over spreadsheets.</li>
+                                <li><strong>Successful Pilot Implementation:</strong> The pilot function was a huge success, reducing the time to input 1,500 employees' ratings into the master spreadsheet, and simplifying the audit process for better accuracy and peace of mind.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+       <!-- Footer Start -->
+       <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="footer-contact">
+                                <h2>Our Head Office</h2>
+                                <p><i class="fa fa-map-marker-alt"></i>#305 - 111 Lawton Blvd, Toronto, ON</p>
+                                <p><i class="fa fa-phone-alt"></i>(647) 542 6760</p>
+                                <p><i class="fa fa-envelope"></i>info@CodableHR.com</p>
+                                <div class="footer-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-youtube"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="footer-newsletter">
+                        <h2>Newsletter</h2>
+                        <p>
+                            Subscribe to our newsletter and get latest updates and offers.
+                        </p>
+                        <div class="form">
+                            <input class="form-control" placeholder="Email goes here">
+                            <button class="btn">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
