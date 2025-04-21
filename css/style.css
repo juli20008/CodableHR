@@ -1677,3 +1677,7 @@ a:focus {
         height: auto; /* Maintain aspect ratio */
     }
 }
+
+.spacing-top {
+    margin-top: 20px;
+}
